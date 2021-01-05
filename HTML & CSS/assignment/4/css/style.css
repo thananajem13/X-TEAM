@@ -1,1 +1,23 @@
-
+/* reset default value of paddinga and margin for page */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* set display, width and height of img */
+.images img{
+    display: inline-block;
+    width: 50%;
+    height: 700px;
+} 
+/* 
+This to avoid white space between 2 images that will make each image at single line not beside each other 
+https://css-tricks.com/fighting-the-space-between-inline-block-elements/  
+*/
+.images img:first-of-type{
+    margin-right: -8px;
+}
+/* set width and margin of image's container */
+.images{
+    width: 80%;
+    margin:10px auto ;
+}
