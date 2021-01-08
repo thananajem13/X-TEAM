@@ -1,1 +1,67 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+.second_section{
+    width: 100%;
+    background-color:#F1F1F1;
+    padding: 30px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container1 .service_title{
+    text-align: center;
+    color: #222222;
+    font-size: 24px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.services .bussiness{
+    position: relative;
+    width: 260px;
+    flex: 1 0 21%;
+    height: 180px;
+    margin: 22px;
+}
+.services .bussiness1{
+    background-image: url("../images/bussiness-2.jpg");
+}
+.services .bussiness2{
+    background-image: url("../images/development.jpg");
+}
+.services .bussiness3{
+    background-image: url("../images/social.jpg");
+}
+.services .bussiness4{
+    background-image: url("../images/remote.jpg");
+}
+.services .bussiness5{
+    background-image: url("../images/video.jpg");
+}
+.services .bussiness6{
+    background-image: url("../images/design.jpg");
+}
+.services .bussiness7{
+    background-image: url("../images/audio.jpg");
+}
+.services .bussiness8{
+    background-image: url("../images/translate.jpg");
+}
+.services .bussiness .service_name{
+    position: absolute;
+    font-family: "Noto Kufi Arabic", "Open Sans", sans-serif; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+}
+.center_elm{
+    top: 80px;  
+    text-align: center;
+}  
