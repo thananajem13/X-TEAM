@@ -1,1 +1,150 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+#face_desc,#face_login_form{
+    width: 50%;
+}
+#login_form{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+#login_form #phone_or_email,
+#login_form #password{
+   border: 1px solid #dadde1
+}
+#login_form{
+    width: 400px;
+    height:375px ;
+}
+#login_form input{ 
+    height:60px ;
+    padding-left: 16px;
+}
+#login_form span,
+#login_form .line,
+#login_form input:not(#signup){
+    width: 360px; 
+}
+#login_form span{
+    display: block;
+    height: 2px;
+}
+#login_form span,
+#login_form input{
+    margin: 12px auto;
+}
+.create_a_face_page_p{
+    margin-top: 30px;
+    width: 87.5%;
+}
+#login_form span,
+#login_form input,
+#login_form{
+    border-radius: 6px; 
+}
+#face_desc .indivisualLine{
+    display: inline-block; 
+}
+#face_desc .p_desc,
+#face_desc .indivisualLine{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+#face_desc .p_desc{
+    width: 500px;
+}
+#login_form #signup{
+    background-color: #36a420;
+    width: 200px;
+}
+#login_form #signup,#login_form #login{
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+#login_form .line{
+    display: block; 
+    height: 1px;
+    background-color:#dadde1;
+    margin:25px auto;
+}
+#login_form #forget_pass{
+    color: #1877f2;
+    margin: 21px auto;
+    text-decoration: underline;
+}
+#login_form #login{
+    padding: 0;
+    background-color: #1877f2;
+}
+#login_form #login:hover,
+#login_form #signup:hover{
+    cursor: pointer;
+} 
+input::placeholder {
+    color: rgb(218, 216, 221);
+    padding-left: 16px;
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+}
+.capitalize_text{
+    text-transform: capitalize;
+}
+.center_text{
+    text-align: center;
+} 
+.block_display{
+    display: block;
+}
+.inline_block_display{
+    display: inline-block;
+}
+.center_elm{
+    margin: auto;
+}
+#login_form input:focus{
+    border:2px solid #1877f2;
+}
+#face_desc img{
+    height: 106px;
+    width: 300px;
+    padding-top: 205px;
+}
+body{
+    background-color: #F0F2F5;
+}
+#face_desc p{
+    margin-left: 33px;
+}
+#login_form{
+    padding: 12px;
+    margin-top: 130px;
+}
+#content{
+    width: 975px;
+    margin: auto;
+    overflow: hidden;
+}
+#create_a_face_page{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#create_a_face_page:hover{
+    text-decoration: underline;
+}
+#login{
+    font-size: 20px;
+}
