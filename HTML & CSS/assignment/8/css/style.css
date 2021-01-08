@@ -64,4 +64,67 @@
 .center_elm{
     top: 80px;  
     text-align: center;
+}
+.center{
+    text-align: center
 }  
+.third_section{
+    background-image: url("../images/pattern.jpg");
+}
+.third_section .container{
+    overflow: hidden;
+}
+.search_box,.search_box .search_form{
+    display: flex;
+}
+.search_box{
+    width: 600px;
+    height: 54px;
+    background-color: white;
+    padding: 10px;
+    margin: 40px auto 112px;
+    align-items: center;
+    justify-content: center;
+}
+.third_section h2{
+    margin-top: 112px;
+    color: #fff;
+    font-size: 24px;
+}
+.search_box .search_img{
+background-image:url("../images/search.png");
+width: 45px;
+height: 52px;
+}
+.search_box .search_form{
+    width:582px;
+    height:52px;
+    /* padding: 16px; */
+}
+.search_box .search_input {
+    width: 508px;
+    height: 52px;
+    border: none;
+    font-size: 24px;
+    padding-right: 12px;
+}
+.search_box .search_input::placeholder{
+    font-size: 24px;
+    color: #a8a8a8;
+}
+.search_box .search_button{
+    width: 74px;
+    height: 52px;
+    border: none; 
+    background-color: #52B035;
+    color: #ffffff;
+    outline: none; 
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 15px;
+}
+.appear_fill_image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
